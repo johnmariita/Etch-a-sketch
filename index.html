@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etch a Sketch</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js" defer></script>
+</head>
+<body>
+    <header class="header">
+        <p>DOM - ETCH-A-SKETCH</p>
+    </header>
+    <div class="container">
+        <div class="drawingPad"></div>
+        <div class="tools">
+            <button class="btn"><i class="fa-solid fa-pencil"></i></button>
+            <button class="btn"><i class="fa-solid fa-eraser"></i></button>
+            <button>clear all</button>
+            <button onclick="requestGridSize()">Grid?</button>
+        </div>
+    </div>
+</body>
+</html>
